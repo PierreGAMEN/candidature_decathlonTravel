@@ -34,7 +34,7 @@ const About = () => {
             </p>
           </div>
           <p>
-            Mince changement de disque, je ne suis plus Decathlonniens, je peux
+            Mince changement de disque, je ne suis plus Decathlonnien, je peux
             me présenter autrement.
           </p>
           <p>

@@ -6,7 +6,7 @@ const FooterP1 = () => {
       <div>
         <img src="expertise.svg" alt="un pin de localisation avec un sportif en son centre" />
         <h3>Expertise sportive & commerciale</h3>
-        <p>Sprotif de toujours et ancien Decathlonien, je serai un allié parfait pour le développement de Decathlon Travel</p>
+        <p>Sportif de toujours et ancien Decathlonien, je serai un allié parfait pour le développement de Decathlon Travel</p>
       </div>
       <div>
         <img src="accessible.svg" alt="un émoticone qui sourit" />

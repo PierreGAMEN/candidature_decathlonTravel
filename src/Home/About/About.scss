@@ -1,0 +1,133 @@
+.about {
+    padding: 2rem;
+
+    &_content {
+        display: flex;
+        gap: 2rem;
+    }
+
+    p {
+        padding: 1rem;
+    }
+
+    &_text {
+        flex-grow: 1;
+        min-width: 40vw;
+    }
+
+    &_container_img {
+        max-height: 80vh;
+        display: flex;
+        flex-direction: column;
+
+        img{
+            object-fit: cover;
+        }
+
+       .bloc1 {
+        display: flex;
+        height: 33%;
+        // opacity: 0;
+
+        .img1 {
+            width: 100%;
+            
+        }
+       }
+       .bloc2 {
+        display: flex;
+        height: 33%;
+
+        .img1, .img2, .img3 {
+            width: 33.33%;
+        }
+        // .img1, .img3 {
+        //     opacity: 0;
+        // }
+       }
+       .bloc3 {
+        display: flex;
+        height: 33%;
+
+        .img1, .img2 {
+            width: 50%;
+        }
+        .img1 {
+            object-position: top;
+        }
+       }
+    }
+}
+
+// .animBC1 {
+//     animation: animBloc1 1s linear forwards;
+// }
+
+// .animBC2img1 {
+//     animation: animBC2img1 1s linear forwards;
+// }
+
+// .animBC2img2 {
+//     animation: animBC2img2 1s linear forwards;
+// }
+
+// .animBC3img1 {
+//     animation: animBC3img1 1s linear forwards;
+// }
+
+// .animBC3img2{
+//     animation: animBC3img2 1s linear forwards;
+// }
+
+@keyframes animBloc1 {
+    from {
+        opacity: 0;
+        transform: translateY(-400px);
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes animBC2img1 {
+    from {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animBC2img2 {
+    from {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animBC3img1 {
+    from {
+        transform: translateY(400px) translateX(-400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px) translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes animBC3img2 {
+    from {
+        transform: translateY(400px) translateX(400px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px) translateX(0px);
+        opacity: 1;
+    }
+}

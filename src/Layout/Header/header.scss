@@ -1,0 +1,158 @@
+@import "../../index.scss";
+
+body {
+  position: relative;
+}
+
+.header {
+  &_promo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+    line-height: 24px;
+    font-size: 1rem;
+
+    span {
+      font-size: 1rem;
+      color: white;
+      margin-right: 0.5rem;
+      font-weight: bold;
+    }
+    a {
+      color: white;
+      font-weight: bold;
+    }
+  }
+
+  .open {
+    background-color: white;
+  }
+
+  &_mobile {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 70px;
+    right: 0%;
+    z-index: 5;
+
+    &_container_img {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 300px;
+        fill: white;
+      }
+    }
+
+    .menu {
+      &_burger,
+      span {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        width: 25px;
+        margin-right: 15px;
+        cursor: pointer;
+        position: absolute;
+        top: 40px;
+        z-index: 5;
+        right: 0;
+
+        .line {
+          border: 2px solid black;
+        }
+        .white {
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+
+  &_nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+    gap: 1rem;
+    padding: 2rem;
+    overflow: hidden;
+    animation: animMenu 0.3s forwards linear;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 3;
+    margin-top: 80px;
+
+    .link {
+      display: flex;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      flex-grow: 1;
+    }
+
+    span {
+      cursor: pointer;
+    }
+  }
+}
+
+.header_desktop {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  position: absolute;
+  top: 50px;
+  right: 10vw;
+  width: 100vw;
+  z-index: 5;
+
+  &_container_img {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  &_nav {
+    display: flex;
+    gap: 1rem;
+
+
+    a {
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      flex-grow: 1;
+      font-size: 1.2rem;
+
+      &:hover {
+        color: rgb(231, 231, 231);
+      }
+    }
+  }
+}
+
+@keyframes animMenu {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}

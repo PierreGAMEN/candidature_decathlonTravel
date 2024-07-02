@@ -1,0 +1,41 @@
+@import "../index.scss";
+
+.container_skills {
+  padding: 2rem;
+
+  &_techno {
+    display: flex;
+    overflow-x: scroll;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+
+    &::-webkit-scrollbar {
+      height: 8px; /* Height of the horizontal scrollbar */
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1; /* Track color */
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $primary-color; /* Thumb color */
+      border-radius: 4px; /* Rounded corners */
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: #59c2ff; /* Thumb color on hover */
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .container_skills {
+    &_techno {
+      &::-webkit-scrollbar {
+        height: 0px;
+      }
+    }
+  }
+}

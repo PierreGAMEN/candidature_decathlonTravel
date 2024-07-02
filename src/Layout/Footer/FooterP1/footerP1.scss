@@ -1,0 +1,42 @@
+@import "../../../index.scss";
+
+.footerP1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 2rem;
+
+    div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 300px;
+        text-align: center;
+
+        img {
+            width: 88px;
+            height: 88px;
+
+        }
+
+        h3 {
+            color: $primary-color;
+        }
+
+    }
+    
+}
+
+@media (max-width: 960px) {
+    .footerP1 {
+        flex-direction: column;
+        align-items: center;
+
+        div {
+            max-width: 500px;
+        }
+    }
+}

@@ -25,7 +25,7 @@ const FooterP2 = () => {
         <div className="design">
             <h4>Info utiles</h4>
           <p>
-            Site original : <a href="">Decathlon Travel</a>
+            Site original : <a href="https://www.decathlontravel.com/">Decathlon Travel</a>
           </p>
           <p>Réinterprété par : Pierre GAMEN</p>
           <p>Réalisé avec React, Vite et déployé avec Netlify.</p>

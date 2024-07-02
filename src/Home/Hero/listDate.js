@@ -1,7 +1,11 @@
 const listDate = [
-"Juillet 2024", "Août 2024", "Septembre 2024", "Octobre 2024", "Novembre 2024", "Décembre 2024", "Année 2025"
-]
-    
-
+  "2024-07-01",
+  "2024-08-01",
+  "2024-09-01",
+  "2024-10-01",
+  "2024-11-01",
+  "2024-12-01",
+  "2025-01-01",
+];
 
 export default listDate;

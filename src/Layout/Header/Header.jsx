@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
 import "./header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   // Déclaration des états locaux
@@ -53,12 +54,12 @@ const Header = () => {
           className={`${!navIsOpen ? "header_mobile" : "header_mobile open"}`}
         >
           <div className="header_mobile_container_img">
-            <img
+            <Link to="/"><img
               src={`${
                 !navIsOpen ? "/logo-decathlon-white.svg" : "/logo-decathlon.svg"
               }`}
               alt="logo Decathlon Travel"
-            />
+            /></Link>
           </div>
 
           {/* Bouton pour ouvrir/fermer le menu de navigation mobile */}
@@ -101,12 +102,12 @@ const Header = () => {
       {!isMobile && (
         <div className="header_desktop">
           <div className="header_desktop_container_img">
-            <img
+            <Link to="/"><img
               src={`${
                 !navIsOpen ? "/logo-decathlon-white.svg" : "/logo-decathlon.svg"
               }`}
               alt="logo Decathlon Travel"
-            />
+            /></Link>
           </div>
 
           <nav className="header_desktop_nav">

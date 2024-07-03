@@ -24,7 +24,7 @@ const Result = () => {
           ? dev.place.toLowerCase().includes(criteria.place.toLowerCase())
           : true) &&
         (criteria.disponibility
-          ? devDisponibility >= criteria.disponibility
+          ? devDisponibility <= criteria.disponibility
           : true) &&
         (criteria.sports.length > 0
           ? criteria.sports.every((sport) =>

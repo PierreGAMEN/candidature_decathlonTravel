@@ -142,7 +142,7 @@ const Hero = () => {
               <span className="material-symbols-rounded">location_on</span>Lieu
             </div>
             {!place ? (
-              <div className="placeholder">Lyon</div>
+              <div className="placeholder">ex : Annecy</div>
             ) : (
               <div className="selection">
                 <p>{place}</p>{" "}
@@ -167,7 +167,7 @@ const Hero = () => {
               Date d'embauche
             </div>
             {!disponibility ? (
-              <div className="placeholder">Sept 2024</div>
+              <div className="placeholder">ex: Sept 2024</div>
             ) : (
               <div className="selection">
                 <p>{disponibility}</p>{" "}
@@ -190,7 +190,7 @@ const Hero = () => {
             </div>
 
             {!sports ? (
-              <div className="placeholder">Escrime</div>
+              <div className="placeholder">ex: Randonnée</div>
             ) : (
               <div className="selection">
                 <p>{sports}</p>{" "}

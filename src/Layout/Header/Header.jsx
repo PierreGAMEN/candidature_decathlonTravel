@@ -85,15 +85,15 @@ const Header = () => {
       {navIsOpen && (
         <nav className="header_nav">
           <div className="link">
-            <a onClick={() => {setNavIsOpen(false)}} href="#about">Qui suis-je ?</a>
+            <a onClick={() => {setNavIsOpen(false)}} href="/#about">Qui suis-je ?</a>
             <span className="material-symbols-rounded">chevron_right</span>
           </div>
           <div className="link">
-            <a onClick={() => {setNavIsOpen(false)}} href="#skills">Mes champs de compétences</a>
+            <a onClick={() => {setNavIsOpen(false)}} href="/#skills">Mes champs de compétences</a>
             <span className="material-symbols-rounded">chevron_right</span>
           </div>
           <div className="link">
-          <a onClick={() => {setNavIsOpen(false)}} href="#youandme">Vous et moi</a>
+          <a onClick={() => {setNavIsOpen(false)}} href="/#youandme">Vous et moi</a>
             <span className="material-symbols-rounded">chevron_right</span>
           </div>
         </nav>
@@ -111,9 +111,9 @@ const Header = () => {
           </div>
 
           <nav className="header_desktop_nav">
-            <a href="#about">Qui suis-je ?</a>
-            <a href="#skills">Mes champs de compétences</a>
-            <a href="#youandme">Vous et moi</a>
+            <a href="/#about">Qui suis-je ?</a>
+            <a href="/#skills">Mes champs de compétences</a>
+            <a href="/#youandme">Vous et moi</a>
           </nav>
         </div>
       )}

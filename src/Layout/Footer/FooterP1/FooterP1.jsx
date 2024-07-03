@@ -16,7 +16,7 @@ const FooterP1 = () => {
       <div>
         <img src="responsable.svg" alt="Une terre signe de l'engagement environnementale" />
         <h3>Démarche responsable</h3>
-        <p>Amoureux de la nature depuis tout jeune, la démarche environnementale contenu dans le projet me touche particulièrement.</p>
+        <p>Amoureux de la nature depuis tout jeune, la démarche environnementale contenue dans le projet me touche particulièrement.</p>
       </div>
       <div>
         <img src="/prox.svg" alt="médaille certification" />

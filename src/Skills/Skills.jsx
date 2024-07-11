@@ -29,13 +29,19 @@ const Skills = () => {
         <Techno
           title="Tailwind CSS"
           image="https://svgl.app/library/tailwindcss.svg"
-          description="Utilisé sur quelques projets, tailwind est pratique mais à mon sens, réduit la lisibilité du code."
+          description="Utilisé sur quelques projets, tailwind est pratique pour réaliser rapidement une mise en forme sans sortir de son fichier."
           typeOfLangage="Front"
         />
         <Techno
           title="React"
           image="https://svgl.app/library/react.svg"
           description="J'utilise React quasiment systématiquement pour développer mes projets front, comme ici."
+          typeOfLangage="Front"
+        />
+        <Techno
+          title="Three.js (débutant)"
+          image="https://svgl.app/library/threejs-light.svg"
+          description="Actuellement en apprentissage, je suis actuellement le cours 'three.js journey'"
           typeOfLangage="Front"
         />
         <Techno

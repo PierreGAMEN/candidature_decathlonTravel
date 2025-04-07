@@ -34,7 +34,7 @@ const Skills = () => {
         />
         <Techno
           title="React"
-          image="https://svgl.app/library/react.svg"
+          image="https://svgl.app/library/react_dark.svg"
           description="J'utilise React quasiment systématiquement pour développer mes projets front, comme ici."
           typeOfLangage="Front"
         />
